@@ -1,0 +1,64 @@
+unique
+------
+                               unsorted  sorted	hashing
+GreenEggsAndHam.txt             .016     .015	.014
+Macbeth.txt                     .131     .048	.019
+Genesis.txt                     .132     .040	.023
+HoundOfTheBaskervilles.txt      .268     .092 	.027
+TheWarOfTheWorlds.txt           .345     .105	.032
+TreasureIsland.txt              .315     .097	.034
+TheSecretGarden.txt             .278     .088	.035
+TwentyThousandLeagues.txt       .600     .155	.043
+TheCountOfMonteCristo.txt       2.674    .391	.124
+Bible.txt                       2.873    .372	.163
+
+
+parity
+------
+                              unsorted  	sorted	hashing
+GreenEggsAndHam.txt             .015	.013	.012
+Macbeth.txt                     .330	.112 	.022
+Genesis.txt                     .384  	.121	.027
+HoundOfTheBaskervilles.txt      .191 	.301	.039
+TheWarOfTheWorlds.txt           1.390	.331	.040
+TreasureIsland.txt              1.424 	.340	.042
+TheSecretGarden.txt             1.327  	.336	.047
+TwentyThousandLeagues.txt       3.108	.597	.062
+TheCountOfMonteCristo.txt       28.986	3.893	.208
+Bible.txt                       29.637 	3.779	.231
+
+
+BIG-O RUNTIMES FOR STRINGS
+---------------------------
+
+createSet : O(n)
+destroySet: O(n)
+numElements: O(1)
+
+(Add,remove,and find call search, which has a Big-O of O(n))
+
+addElement: O(n)
+removeElement: O(n) 
+findElement: O(n) 
+getElements: O(n)
+search: O(n) 
+strhash: while loop -> worst case:o(n), best case:o(1)
+
+
+BIG-O RUNTIMES FOR GENERIC
+--------------------------
+
+createSet : O(n)
+destroySet: O(1)
+numElements: O(1)
+
+(Add,remove,and find call search, which has a Big-O of O(n))
+
+addElement: O(n)
+removeElement: O(n) 
+findElement: O(n) 
+getElements: O(n)
+search: O(n) 
+strhash: while loop -> worst case:o(n), best case:o(1)
+
+

@@ -1,0 +1,48 @@
+unique
+------
+                              unsorted  sorted
+GreenEggsAndHam.txt             .016     .015
+Macbeth.txt                     .131     .048
+Genesis.txt                     .132     .040
+HoundOfTheBaskervilles.txt      .268     .092 
+TheWarOfTheWorlds.txt           .345     .105
+TreasureIsland.txt              .315     .097
+TheSecretGarden.txt             .278     .088
+TwentyThousandLeagues.txt       .600     .155
+TheCountOfMonteCristo.txt       2.674    .391
+Bible.txt                       2.873    .372
+
+
+parity
+------
+                              unsorted  sorted
+GreenEggsAndHam.txt             .015	.013
+Macbeth.txt                     .330    .112 
+Genesis.txt                     .384  	.121
+HoundOfTheBaskervilles.txt      .191 	.301
+TheWarOfTheWorlds.txt           1.390   .331
+TreasureIsland.txt              1.424   .340
+TheSecretGarden.txt             1.327  	.336
+TwentyThousandLeagues.txt       3.108   .597
+TheCountOfMonteCristo.txt       28.986  3.893
+Bible.txt                       29.637  3.779
+
+unsorted: 
+insert		O(n)
+delete 		O(n)
+search		O(n)
+createSet 	O(1)
+destroySet 	O(1)
+numElements	O(1)
+getElements	O(1)
+findElements	O(n)
+
+sorted:
+insert		O(n)
+delete 		O(n)
+search		O(logn)
+createSet 	O(1)
+destroySet 	O(1)
+numElements	O(1)
+getElements	O(1)
+findElements	O(logn)
